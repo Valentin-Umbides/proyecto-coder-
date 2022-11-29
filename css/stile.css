@@ -107,7 +107,7 @@ li {
 }
 
 
-.navbar {
+.navBarTop {
 
 
 
@@ -204,4 +204,11 @@ transform: scale(1.1);
     .mapaLugar{
         height: 500px;
         width: 100%;
+
+            }
+
+    .card:hover{
+        transform: scale(1.3);
+        transition: transform 1s;
+
     }
