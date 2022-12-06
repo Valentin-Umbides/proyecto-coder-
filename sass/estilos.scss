@@ -1,0 +1,176 @@
+@mixin center-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgLogo {
+
+    text-align: center;
+    width: 100%;
+    height: 30vh;
+    background-image: url("../assets/imges/tenis.jpg");
+    background-size: cover;
+    position: relative;
+
+}
+
+.logoimg {
+
+    width: 100%;
+    height: 400px;
+    gap: 30px;
+
+}
+
+.classsection {
+    @include center-flex-center;
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;   
+    flex-wrap: wrap;    
+    column-gap: 30px;
+    row-gap: 30px;
+
+}
+
+.classsection>.Itemcounteiner {
+    flex: 1 0 21%;
+}
+
+.classmain {
+    @include center-flex-center;
+    flex-direction: row;
+    flex-wrap: nowrap;   
+    margin-bottom: 100px;
+}
+
+.Itemcounteiner {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.descripcion {
+    text-align: center;
+    max-width: 300px;
+    white-space: break-spaces;
+
+
+
+}
+
+.contactanos {
+    height: 50vh;
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+
+
+}
+
+.navItem {   
+    list-style: none;
+    margin-bottom: 7px;
+    }
+
+
+.navBarTop {    
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    height: 100px;
+    margin-top: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    ul {
+        margin-right: 15px;        
+
+        li {
+            text-decoration: none;
+            display: inline-block;
+            position: relative;
+            font-weight: bold;
+            list-style: none;
+            color:rgb(0, 0, 0);
+            font-size: 1.1rem;
+            
+            a{
+                text-decoration: none !important;
+                color:black !important;
+                
+            }
+        }
+    }
+}
+
+.mainInicio {     
+    @include center-flex-center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    height: 60px;
+    width: 50px;
+}
+
+.logos {
+    text-align: center;
+    align-self: flex-end;
+    height: 20vh;
+    background-color: coral;
+}
+
+.adentro {
+    display: inline-block;
+    position: relative;
+    margin-top: 30px;
+    width: 50%;
+    height: 40px;
+}
+
+@media (max-width:500px) {
+    .raquetas {
+        width: 300px;
+        height: 300px;
+    }
+
+}
+
+.mapa {
+    @include center-flex-center;
+    flex-direction: column;   
+}
+
+.mapaLugar {
+    height: 500px;
+    width: 100%;
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: transform 1s;
+
+}

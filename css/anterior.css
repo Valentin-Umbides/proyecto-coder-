@@ -1,0 +1,214 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.imgLogo {
+   
+    text-align: center;
+    width: 100%;
+    height: 30vh;
+    background-image: url("../assets/imges/tenis.jpg");
+    background-size: cover;
+    position: relative;
+
+}
+
+.logoimg {
+
+    width: 100%;
+    height: 400px;
+    gap: 30px;
+    
+}
+.ul li{
+
+    margin-right: 15px;
+
+}
+
+.classsection{
+
+    height: 100%;
+    width: 100%;    
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 30px;
+    
+}
+.classsection > .Itemcounteiner{
+    flex: 1 0 21%;
+}
+
+.classmain{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    
+    
+    
+    }
+    .Itemcounteiner{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+.descripcion{
+    text-align: center;
+    max-width: 300px;
+    white-space:break-spaces;
+
+
+
+}    
+
+a,
+li {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+    list-style: none;
+    color: black;
+    font-size: 1.1rem;
+    
+}
+  
+
+
+.contactanos {
+    height: 50vh;
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    
+    
+}
+
+
+.navItem {
+
+    list-style: none;
+    margin-bottom: 7px;
+
+
+}
+
+
+.navBarTop {
+
+
+
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    height: 100px;
+    margin-top: 150px;
+    text-align:center;
+    display: flex;
+    justify-content:center;
+
+    
+    
+
+}
+
+.mainInicio{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.logo {
+
+    height: 60px;
+    width: 50px;
+
+}
+
+.logos {
+    text-align: center;
+    align-self: flex-end;
+    height: 20vh;
+    background-color:coral;
+
+
+}
+
+
+.adentro {
+    display: inline-block;
+    position: relative;
+    margin-top: 30px; 
+    width: 50%;
+    height: 40px;
+}
+
+.ropa{
+
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+    transition: transform 1s    
+    
+}
+.ropa:hover{ 
+    transform: scale(1.1);
+}
+.raquetas{
+
+    width: 400px;
+    height: 400px;    
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+    transition: transform 1s;
+
+    
+    
+    
+}
+@media (max-width:500px) {
+    .raquetas{
+        width: 300px;
+        height: 300px;
+    }
+    
+}
+
+.raquetas:hover{
+
+transform: scale(1.1);
+
+}
+.mapa{
+    display:flex;
+    justify-content: center;
+    flex-direction: column ;
+    align-items: center;
+    }
+    .mapaLugar{
+        height: 500px;
+        width: 100%;
+
+            }
+
+    .card:hover{
+        transform: scale(1.1);
+        transition: transform 1s;
+
+    }
