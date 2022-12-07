@@ -1,0 +1,13 @@
+.mainInicio {     
+    @include center-flex-center;
+    margin-top: 100px;
+    margin-bottom:$margin-botton;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: transform 1s;
+
+}

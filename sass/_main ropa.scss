@@ -1,0 +1,29 @@
+.classsection {
+    @include center-flex-center;
+    height: 100%;
+    width:$width;
+    margin-top: 50px;   
+    flex-wrap: wrap;    
+    column-gap: 30px;
+    row-gap: 30px;
+
+}
+
+.classmain {
+    @include center-flex-center;
+    flex-direction: row;
+    flex-wrap: nowrap;   
+    margin-bottom:$margin-botton;
+}
+
+.descripcion {
+    text-align:$text-align;
+    max-width: 300px;
+    white-space: break-spaces;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: transform 1s;
+
+}

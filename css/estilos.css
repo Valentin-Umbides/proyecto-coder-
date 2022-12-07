@@ -81,8 +81,7 @@
       color: black;
       font-size: 1.1rem; }
       .navBarTop ul li a {
-        text-decoration: none !important;
-        color: black !important; }
+        color: black; }
 
 .mainInicio {
   display: flex;

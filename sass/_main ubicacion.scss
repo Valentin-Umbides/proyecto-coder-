@@ -1,0 +1,10 @@
+.mapa {
+    @include center-flex-center;
+    flex-direction: column;   
+}
+
+.mapaLugar {
+    height: 500px;
+    width:$width;
+
+}

@@ -1,0 +1,45 @@
+.imgLogo {
+
+    text-align:$text-align;
+    width:$width;
+    height: 30vh;
+    background-image: url("../assets/imges/tenis.jpg");
+    background-size: cover;
+    position: relative;
+
+}
+.navItem {   
+    list-style: none;
+    margin-bottom: 7px;
+    }
+
+ 
+.navBarTop {    
+    position: absolute;
+    margin: auto;
+    width:$width;
+    height: 100px;
+    margin-top: 150px;
+    text-align:$text-align;
+    display: flex;
+    justify-content: center;
+
+    ul {
+        margin-right: 15px;        
+
+        li {
+            text-decoration: none;
+            display: inline-block;
+            position: relative;
+            font-weight: bold;
+            list-style: none;
+            color:rgb(5, 5, 5);
+            font-size: 1.1rem;            
+            
+            a{ 
+                color:map-get($color,color1 )
+            
+            }
+        }
+    }
+}
