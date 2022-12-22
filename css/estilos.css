@@ -12,51 +12,6 @@
   background-size: cover;
   position: relative; }
 
-.logoimg {
-  width: 100%;
-  height: 400px;
-  gap: 30px; }
-
-.classsection {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  margin-top: 50px;
-  flex-wrap: wrap;
-  column-gap: 30px;
-  row-gap: 30px; }
-
-.classsection > .Itemcounteiner {
-  flex: 1 0 21%; }
-
-.classmain {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  margin-bottom: 100px; }
-
-.Itemcounteiner {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  align-items: center; }
-
-.descripcion {
-  text-align: center;
-  max-width: 300px;
-  white-space: break-spaces; }
-
-.contactanos {
-  height: 50vh;
-  text-align: center;
-  margin-top: 150px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 30px; }
-
 .navItem {
   list-style: none;
   margin-bottom: 7px; }
@@ -78,7 +33,7 @@
       position: relative;
       font-weight: bold;
       list-style: none;
-      color: black;
+      color: #050505;
       font-size: 1.1rem; }
       .navBarTop ul li a {
         color: black; }
@@ -92,15 +47,81 @@
   gap: 30px;
   flex-wrap: wrap; }
 
-.logo {
-  height: 60px;
-  width: 50px; }
+.card:hover {
+  transform: scale(1.1);
+  transition: transform 1s; }
 
-.logos {
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #ff9900 !important; }
+
+.classsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px; }
+
+.classmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-bottom: 100px; }
+
+.descripcion {
   text-align: center;
-  align-self: flex-end;
-  height: 20vh;
-  background-color: coral; }
+  max-width: 300px;
+  white-space: break-spaces; }
+
+.card:hover {
+  transform: scale(1.1);
+  transition: transform 1s; }
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #ff9900 !important; }
+
+.classsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px; }
+
+.classmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-bottom: 100px; }
+
+.descripcion {
+  text-align: center;
+  max-width: 300px;
+  white-space: break-spaces; }
+
+.card:hover {
+  transform: scale(1.1);
+  transition: transform 1s; }
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #ff9900 !important; }
+
+.contactanos {
+  height: 50vh;
+  text-align: center;
+  margin-top: 150px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px; }
 
 .adentro {
   display: inline-block;
@@ -108,11 +129,6 @@
   margin-top: 30px;
   width: 50%;
   height: 40px; }
-
-@media (max-width: 500px) {
-  .raquetas {
-    width: 300px;
-    height: 300px; } }
 
 .mapa {
   display: flex;
@@ -124,6 +140,28 @@
   height: 500px;
   width: 100%; }
 
-.card:hover {
-  transform: scale(1.1);
-  transition: transform 1s; }
+.logo {
+  height: 60px;
+  width: 50px; }
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  background-color: coral;
+  width: 100%;
+  gap: 20px; }
+
+.mainerror {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.error {
+  height: 600px;
+  width: 600px; }
+
+.textoerror {
+  text-align: center; }

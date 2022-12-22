@@ -4,8 +4,12 @@
 }
 
 .logos {
-    text-align:$text-align;
-    align-self: flex-end;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 20vh;
     background-color: coral;
+    width: 100%;
+    gap: 20px;
 }
