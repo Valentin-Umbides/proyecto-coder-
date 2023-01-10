@@ -11,7 +11,7 @@
 
 .classmain {
     @include center-flex-center;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;   
     margin-bottom:$margin-botton;
 }

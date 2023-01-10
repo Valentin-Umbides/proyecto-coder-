@@ -10,7 +10,18 @@
   height: 30vh;
   background-image: url("../assets/imges/tenis.jpg");
   background-size: cover;
-  position: relative; }
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+gap: 30px; }
+  .logoTenis{
+    width: 200px;
+    height: 200px;
+    margin-right:1700px;
+}
+
 
 .navItem {
   list-style: none;
@@ -42,10 +53,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 150px;
   margin-bottom: 100px;
   gap: 30px;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+font-size: 30px;}
 
 .card:hover {
   transform: scale(1.1);
@@ -71,7 +84,11 @@
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
-  margin-bottom: 100px; }
+  margin-bottom: 100px; 
+  margin-top: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
 
 .descripcion {
   text-align: center;
@@ -100,7 +117,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
   margin-bottom: 100px; }
 
@@ -134,7 +151,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; }
+  flex-direction: column;
+  margin-top: 150px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px; }
 
 .mapaLugar {
   height: 500px;
