@@ -16,10 +16,16 @@
   justify-content: center;
   align-items: center;
 gap: 30px; }
-  .logoTenis{
-    width: 200px;
+
+
+  
+   .logoTenis{ width: 200px;
     height: 200px;
-    margin-right:1700px;
+    position: absolute;
+    top:0;
+    left:0;
+
+    
 }
 
 
